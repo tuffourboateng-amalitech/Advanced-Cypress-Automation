@@ -3,5 +3,5 @@ export const radiobuttonSelector = {
   yesRadioButton: ".custom-control-input",
   impressiveRadio: ".custom-control-input",
   successPrompt: ".text-success",
-  disabledButton: ".custom-control-input",
+  disabledButton: '.custom-control-input'
 };
