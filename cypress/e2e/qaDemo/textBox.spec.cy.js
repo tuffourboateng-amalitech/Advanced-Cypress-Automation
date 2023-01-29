@@ -20,6 +20,7 @@ describe("Automation for a dummy QA website", () => {
     expect(userForm.should("exist"));
 
     cy.get(textSelectors.username).type(nameInput);
+    cy.get(textSelectors.username).invoke('val').should('have.lengthOf.at.least', 14)
     cy.get(textSelectors.email).type(email);
     cy.get(textSelectors.currAddress).type(address);
     cy.get(textSelectors.permAddress).type(perm_address);

@@ -8,6 +8,8 @@ const projectUrls = {
   buttonUrl: "https://demoqa.com/buttons",
   linksUrl: "https://demoqa.com/links",
   uploadDownlUrl: "https://demoqa.com/upload-download",
+  formsUrl: "https://demoqa.com/forms",
+  browserWindowUrl: "https://demoqa.com/alertsWindows",
 };
 
 export default projectUrls

@@ -28,6 +28,10 @@ describe("Automation for dummy QA website", () => {
     });
     cy.url().should("equal", uploadDownlUrl);
     cy.get(uploadDownload.downloadButton).click()
+    
+    //check the directory if a file with sampleFile.jpeg exists
+     cy.readFile('./cypress/downloads/sampleFile.jpeg').should('exist')
+  
   })
 
 });
